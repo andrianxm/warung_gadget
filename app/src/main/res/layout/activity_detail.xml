@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rv_gadget"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/orange">
+
+            <ImageView
+                android:id="@+id/img_item_photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:importantForAccessibility="no"
+                android:scaleType="fitXY"
+                tools:src="@tools:sample/avatars" />
+
+            <TextView
+                style="@style/TextContent.BodyMedium.White.MarginAll"
+                android:layout_gravity="bottom"
+                android:background="#4D000000"
+                android:drawablePadding="4dp"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:text="@string/dummy_photos"
+                app:drawableStartCompat="@drawable/baseline_collections_24" />
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_item_price"
+                style="@style/TextContent.HeadlineMedium.Bold"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                tools:text="@string/price" />
+
+            <Button
+                android:id="@+id/action_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                android:drawableLeft="@drawable/baseline_share_24"
+                android:text="@string/share" />
+        </RelativeLayout>
+
+
+
+        <TextView
+            android:id="@+id/tv_item_name"
+            style="@style/TextContent.TitleMedium.Bold.MarginLeftRight"
+            android:layout_marginBottom="16dp"
+            android:textSize="18sp"
+            tools:text="@string/gadget_name" />
+
+        <TextView
+            android:id="@+id/data_specification"
+            style="@style/TextContent.BodyMedium.Gray.MarginLeftRight"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            tools:text="@string/description" />
+
+        <TextView
+            style="@style/TextContent.TitleMedium.Bold.MarginLeftRight"
+            android:layout_marginBottom="8dp"
+            android:text="@string/specification" />
+
+        <TextView
+            android:id="@+id/detail_specification"
+            style="@style/TextContent.BodyMedium.Gray.MarginLeftRight"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            tools:text="@string/detail" />
+
+
+        <TextView
+            style="@style/TextContent.TitleMedium.Bold.MarginLeftRight"
+            android:layout_marginBottom="8dp"
+            android:text="@string/seller" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/profile_image"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/profile" />
+
+            <TextView
+                style="@style/TextContent.BodyMedium.Gray"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/profile_image"
+                android:text="@string/my_name" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_buy"
+            style="@style/ButtonGeneral.SecondaryVariant"
+            android:onClick="onClick"
+            android:text="@string/buy" />
+
+    </LinearLayout>
+</ScrollView>

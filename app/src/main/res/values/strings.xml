@@ -1,0 +1,358 @@
+<resources>
+    <string name="app_name">Warung Gadget</string>
+    <string name="gadget_name">Nama Smartphone</string>
+    <string name="description">Deskripsi</string>
+    <string name="price">Harga</string>
+    <string name="detail">Detail</string>
+    <string name="specification">Spesifikasi</string>
+    <string name="list">list\n</string>
+    <string name="grid">grid</string>
+    <string name="about">about</string>
+    <string name="bookmark">bookmark</string>
+    <string name="dummy_photos">Photos</string>
+    <string name="seller">Dijual oleh</string>
+    <string name="buy">Beli Sekarang</string>
+    <string name="my_name">Andrian Maulana</string>
+    <string name="back">back</string>
+    <string name="email">andrianmaulana5612@gmail.com</string>
+    <string name="about_me">ABOUT ME</string>
+    <string name="share">Share</string>
+
+    <string-array name="data_name">
+        <item>Samsung Galaxy S23</item>
+        <item>iPhone 15</item>
+        <item>Google Pixel 8</item>
+        <item>Xiaomi 14</item>
+        <item>OnePlus 12</item>
+        <item>Samsung Galaxy Z Fold5</item>
+        <item>Samsung Galaxy Z Flip5</item>
+        <item>Huawei P60</item>
+        <item>Oppo Find X6</item>
+        <item>Vivo X90</item>
+        <item>Motorola Edge 40</item>
+        <item>Nokia X30</item>
+        <item>Sony Xperia 5 V</item>
+        <item>Asus Zenfone 10</item>
+        <item>Nothing Phone (2)</item>
+        <item>Realme GT 5</item>
+        <item>Poco F5</item>
+        <item>Tecno Camon 20 Premier</item>
+        <item>Infinix Zero Ultra</item>
+        <item>Honor Magic5 Pro</item>
+    </string-array>
+
+    <string-array name="data_harga">
+        <item>Rp. 15.000.000</item>
+        <item>Rp. 20.000.000</item>
+        <item>Rp. 12.000.000</item>
+        <item>Rp. 10.000.000</item>
+        <item>Rp. 13.000.000</item>
+        <item>Rp. 25.000.000</item>
+        <item>Rp. 18.000.000</item>
+        <item>Rp. 14.000.000</item>
+        <item>Rp. 16.000.000</item>
+        <item>Rp. 11.000.000</item>
+        <item>Rp. 9.000.000</item>
+        <item>Rp. 7.000.000</item>
+        <item>Rp. 17.000.000</item>
+        <item>Rp. 8.000.000</item>
+        <item>Rp. 12.500.000</item>
+        <item>Rp. 9.500.000</item>
+        <item>Rp. 6.000.000</item>
+        <item>Rp. 5.000.000</item>
+        <item>Rp. 8.500.000</item>
+        <item>Rp. 14.500.000</item>
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s23-5g-1.jpg</item>
+        <item>https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-2.jpg</item>
+        <item>https://fdn2.gsmarena.com/vv/pics/google/google-pixel-8-1.jpg</item>
+        <item>https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-14-01.jpg</item>
+        <item>https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-12-1.jpg</item>
+        <item>https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-z-fold5-5g-r2.jpg</item>
+        <item>https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-z-flip5-5g-r1.jpg</item>
+        <item>https://fdn2.gsmarena.com/vv/pics/huawei/huawei-p60-1.jpg</item>
+        <item>https://fdn2.gsmarena.com/vv/pics/oppo/oppo-find-x6-1.jpg</item>
+        <item>https://fdn2.gsmarena.com/vv/pics/vivo/vivo-x90-1.jpg</item>
+        <item>https://fdn2.gsmarena.com/vv/pics/motorola/motorola-edge40-1.jpg</item>
+        <item>https://fdn2.gsmarena.com/vv/pics/nokia/nokia-x30-5g-1.jpg</item>
+        <item>https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-5-v-new-1.jpg</item>
+        <item>https://fdn2.gsmarena.com/vv/pics/asus/asus-zenfone10-0.jpg</item>
+        <item>https://fdn2.gsmarena.com/vv/pics/nothing/nothing-phone2-1_.jpg</item>
+        <item>https://fdn2.gsmarena.com/vv/pics/realme/realme-gt5-150w-1.jpg</item>
+        <item>https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-poco-f5-2.jpg</item>
+        <item>https://fdn2.gsmarena.com/vv/pics/tecno/tecno-camon20-premier-5g-1.jpg</item>
+        <item>https://fdn2.gsmarena.com/vv/pics/infinix/infinix-zero-ultra-1.jpg</item>
+        <item>https://fdn2.gsmarena.com/vv/pics/honor/honor-magic5-pro-1.jpg</item>
+    </string-array>
+
+    <string-array name="data_specification">
+        <item>RAM 12GB, Internal 512GB, Snapdragon 8 Gen 2</item>
+        <item>RAM 8GB, Internal 256GB, Apple A17 Bionic</item>
+        <item>RAM 12GB, Internal 256GB, Google Tensor G3</item>
+        <item>RAM 16GB, Internal 1TB, Snapdragon 8 Gen 2</item>
+        <item>RAM 16GB, Internal 512GB, Snapdragon 8 Gen 2</item>
+        <item>RAM 12GB, Internal 1TB, Snapdragon 8 Gen 2</item>
+        <item>RAM 8GB, Internal 512GB, Snapdragon 8 Gen 2</item>
+        <item>RAM 12GB, Internal 512GB, Kirin 9000</item>
+        <item>RAM 16GB, Internal 512GB, Snapdragon 8 Gen 2</item>
+        <item>RAM 12GB, Internal 256GB, Dimensity 9200</item>
+        <item>RAM 8GB, Internal 256GB, Dimensity 9000</item>
+        <item>RAM 8GB, Internal 256GB, Snapdragon 695</item>
+        <item>RAM 12GB, Internal 256GB, Snapdragon 8 Gen 2</item>
+        <item>RAM 16GB, Internal 512GB, Snapdragon 8 Gen 2</item>
+        <item>RAM 12GB, Internal 256GB, Snapdragon 8+ Gen 1</item>
+        <item>RAM 24GB, Internal 1TB, Snapdragon 8 Gen 2</item>
+        <item>RAM 12GB, Internal 256GB, Snapdragon 8+ Gen 1</item>
+        <item>RAM 16GB, Internal 512GB, Helio G99</item>
+        <item>RAM 12GB, Internal 256GB, Dimensity 920</item>
+        <item>RAM 12GB, Internal 512GB, Snapdragon 8 Gen 2</item>
+    </string-array>
+    <string-array name="link_share">
+        <item>https://www.gsmarena.com/samsung_galaxy_s23-12082.php</item>
+        <item>https://www.gsmarena.com/apple_iphone_15-12559.php</item>
+        <item>https://www.gsmarena.com/google_pixel_8-12546.php</item>
+        <item>https://www.gsmarena.com/xiaomi_14-12626.php</item>
+        <item>https://www.gsmarena.com/oneplus_12-12725.php</item>
+        <item>https://www.gsmarena.com/samsung_galaxy_z_fold5-12418.php</item>
+        <item>https://www.gsmarena.com/samsung_galaxy_z_flip5-12252.php</item>
+        <item>https://www.gsmarena.com/huawei_p60-12191.php</item>
+        <item>https://www.gsmarena.com/oppo_find_x6-12106.php</item>
+        <item>https://www.gsmarena.com/vivo_x90-11990.php</item>
+        <item>https://www.gsmarena.com/motorola_edge_40-12204.php</item>
+        <item>https://www.gsmarena.com/nokia_x30-11831.php</item>
+        <item>https://www.gsmarena.com/sony_xperia_5_v-12534.php</item>
+        <item>https://www.gsmarena.com/asus_zenfone_10-12380.php</item>
+        <item>https://www.gsmarena.com/nothing_phone_(2)-12386.php</item>
+        <item>https://www.gsmarena.com/realme_gt5-12528.php</item>
+        <item>https://www.gsmarena.com/xiaomi_poco_f5-12258.php</item>
+        <item>https://www.gsmarena.com/tecno_camon_20_premier-12256.php</item>
+        <item>https://www.gsmarena.com/infinix_zero_ultra-11922.php</item>
+        <item>https://www.gsmarena.com/honor_magic5_pro-12148.php</item>
+    </string-array>
+    <string-array name="detail_spesification">
+    <item>
+        Layar: 6.1 inci, Dynamic AMOLED 2X, 120Hz\n
+        Prosesor: Snapdragon 8 Gen 2\n
+        RAM: 8GB/12GB\n
+        Memori Internal: 128GB/256GB/512GB/1TB\n
+        Kamera Belakang: 50MP (wide), 12MP (ultrawide), 10MP (telephoto)\n
+        Kamera Depan: 12MP\n
+        Baterai: 3900mAh, 45W fast charging\n
+        Sistem Operasi: Android 13, One UI 5.1\n
+        Fitur Lainnya: IP68 dust/water resistant, stereo speakers, wireless charging
+    </item>
+        <item>
+        Layar: 6.1 inci, Super Retina XDR, 120Hz\n
+        Prosesor: Apple A17 Bionic\n
+        RAM: 6GB/8GB\n
+        Memori Internal: 128GB/256GB/512GB/1TB\n
+        Kamera Belakang: 48MP (wide), 12MP (ultrawide), 12MP (telephoto)\n
+        Kamera Depan: 12MP\n
+        Baterai: 4323mAh, 30W fast charging\n
+        Sistem Operasi: iOS 17\n
+        Fitur Lainnya: Face ID, MagSafe, water resistant
+    </item>
+        <item>
+        Layar: 6.3 inci, OLED, 120Hz\n
+        Prosesor: Google Tensor G3\n
+        RAM: 8GB/12GB\n
+        Memori Internal: 128GB/256GB/512GB\n
+        Kamera Belakang: 50MP (wide), 12MP (ultrawide), 48MP (telephoto)\n
+        Kamera Depan: 10.8MP\n
+        Baterai: 4485mAh, 30W fast charging\n
+        Sistem Operasi: Android 14\n
+        Fitur Lainnya: IP68 dust/water resistant, stereo speakers, wireless charging
+    </item>
+        <item>
+        Layar: 6.67 inci, AMOLED, 120Hz\n
+        Prosesor: Snapdragon 8 Gen 2\n
+        RAM: 8GB/12GB/16GB\n
+        Memori Internal: 256GB/512GB/1TB\n
+        Kamera Belakang: 50MP (wide), 13MP (ultrawide), 50MP (telephoto)\n
+        Kamera Depan: 32MP\n
+        Baterai: 4500mAh, 120W fast charging\n
+        Sistem Operasi: Android 13, MIUI 14\n
+        Fitur Lainnya: IP68 dust/water resistant, stereo speakers, infrared blaster
+    </item>
+        <item>
+        Layar: 6.7 inci, LTPO AMOLED, 120Hz\n
+        Prosesor: Snapdragon 8 Gen 2\n
+        RAM: 12GB/16GB\n
+        Memori Internal: 256GB/512GB\n
+        Kamera Belakang: 50MP (wide), 48MP (ultrawide), 32MP (telephoto)\n
+        Kamera Depan: 32MP\n
+        Baterai: 5000mAh, 100W fast charging\n
+        Sistem Operasi: Android 14, OxygenOS 14\n
+        Fitur Lainnya: Alert slider, stereo speakers, wireless charging
+    </item>
+        <item>
+        Layar Utama: 7.6 inci, Dynamic AMOLED 2X, 120Hz\n
+        Layar Cover: 6.2 inci, Dynamic AMOLED 2X, 120Hz\n
+        Prosesor: Snapdragon 8 Gen 2\n
+        RAM: 12GB\n
+        Memori Internal: 256GB/512GB/1TB\n
+        Kamera Belakang: 50MP (wide), 12MP (ultrawide), 10MP (telephoto)\n
+        Kamera Depan: 4MP (under display)\n
+        Baterai: 4400mAh, 45W fast charging\n
+        Sistem Operasi: Android 13, One UI 5.1\n
+        Fitur Lainnya: IPX8 water resistant, S Pen, stereo speakers
+    </item>
+        <item>
+        Layar Utama: 6.7 inci, Dynamic AMOLED 2X, 120Hz\n
+        Layar Cover: 3.4 inci, Super AMOLED\n
+        Prosesor: Snapdragon 8 Gen 2\n
+        RAM: 8GB\n
+        Memori Internal: 256GB/512GB\n
+        Kamera Belakang: 12MP (wide), 12MP (ultrawide)\n
+        Kamera Depan: 10MP\n
+        Baterai: 3700mAh, 45W fast charging\n
+        Sistem Operasi: Android 13, One UI 5.1\n
+        Fitur Lainnya: IPX8 water resistant, Flex Mode, stereo speakers
+    </item>
+        <item>
+        Layar: 6.67 inci, OLED, 120Hz\n
+        Prosesor: Snapdragon 8+ Gen 1 4G\n
+        RAM: 8GB/12GB\n
+        Memori Internal: 256GB/512GB\n
+        Kamera Belakang: 48MP (wide), 13MP (ultrawide), 48MP (telephoto)\n
+        Kamera Depan: 13MP\n
+        Baterai: 4815mAh, 88W fast charging\n
+        Sistem Operasi: HarmonyOS 3.1\n
+        Fitur Lainnya: Satellite communication, XMAGE camera system
+    </item>
+        <item>
+        Layar: 6.82 inci, LTPO AMOLED, 120Hz\n
+        Prosesor: Snapdragon 8 Gen 2\n
+        RAM: 12GB/16GB\n
+        Memori Internal: 256GB/512GB\n
+        Kamera Belakang: 50MP (wide), 50MP (ultrawide), 50MP (periscope telephoto)\n
+        Kamera Depan: 32MP\n
+        Baterai: 5000mAh, 100W fast charging\n
+        Sistem Operasi: Android 13, ColorOS 13\n
+        Fitur Lainnya: Hasselblad camera, IP68 dust/water resistant, MariSilicon X NPU
+    </item>
+        <item>
+        Layar: 6.78 inci, AMOLED, 120Hz\n
+        Prosesor: Dimensity 9200\n
+        RAM: 8GB/12GB\n
+        Memori Internal: 256GB/512GB\n
+        Kamera Belakang: 50MP (wide), 12MP (ultrawide), 12MP (telephoto)\n
+        Kamera Depan: 32MP\n
+        Baterai: 4870mAh, 120W fast charging\n
+        Sistem Operasi: Android 13, Funtouch OS 13\n
+        Fitur Lainnya: Zeiss optics, V2 chip, IP64 dust/water resistant
+    </item>
+        <item>
+        Layar: 6.55 inci, OLED, 144Hz\n
+        Prosesor: Dimensity 9000\n
+        RAM: 8GB/12GB\n
+        Memori Internal: 128GB/256GB/512GB\n
+        Kamera Belakang: 50MP (wide), 13MP (ultrawide), 50MP (telephoto)\n
+        Kamera Depan: 32MP\n
+        Baterai: 4600mAh, 68W fast charging\n
+        Sistem Operasi: Android 13\n
+        Fitur Lainnya: IP68 dust/water resistant, Dolby Atmos, wireless charging
+    </item>
+        <item>
+    Layar: 6.43 inci, AMOLED, 90Hz\n
+    Prosesor: Snapdragon 695 5G\n
+            RAM: 6GB/8GB\n
+            Memori Internal: 128GB/256GB\n
+            Kamera Belakang: 50MP (wide), 8MP (ultrawide), 2MP (depth)\n
+            Kamera Depan: 16MP\n
+            Baterai: 4500mAh, 67W fast charging\n
+            Sistem Operasi: Android 13\n
+            Fitur Lainnya: IP67 dust/water resistant, OZO audio, 3 years of OS updates
+        </item>
+        <item>
+            Layar: 6.1 inci, OLED, 120Hz\n
+            Prosesor: Snapdragon 8 Gen 2\n
+            RAM: 8GB/12GB\n
+            Memori Internal: 128GB/256GB\n
+            Kamera Belakang: 50.1MP (wide), 12MP (ultrawide), 48MP (telephoto)\n
+            Kamera Depan: 12MP\n
+            Baterai: 4500mAh, 30W fast charging\n
+            Sistem Operasi: Android 13\n
+            Fitur Lainnya: IP65/68 dust/water resistant, stereo speakers, wireless charging
+        </item>
+        <item>
+            Layar: 5.9 inci, AMOLED, 120Hz\n
+            Prosesor: Snapdragon 8 Gen 2\n
+            RAM: 8GB/16GB\n
+            Memori Internal: 128GB/256GB/512GB\n
+            Kamera Belakang: 50MP (wide), 13MP (ultrawide), 32MP (telephoto)\n
+            Kamera Depan: 32MP\n
+            Baterai: 4200mAh, 67W fast charging\n
+            Sistem Operasi: Android 13, ZenUI\n
+            Fitur Lainnya: IP68 dust/water resistant, gimbal stabilization, stereo speakers
+        </item>
+        <item>
+            Layar: 6.7 inci, OLED, 120Hz\n
+            Prosesor: Snapdragon 8+ Gen 1\n
+            RAM: 8GB/12GB\n
+            Memori Internal: 128GB/256GB/512GB\n
+            Kamera Belakang: 50MP (wide), 50MP (ultrawide)\n
+            Kamera Depan: 16MP\n
+            Baterai: 4700mAh, 45W fast charging\n
+            Sistem Operasi: Android 13, Nothing OS\n
+            Fitur Lainnya: Glyph Interface, IP54 dust/water resistant, stereo speakers
+        </item>
+        <item>
+            Layar: 6.74 inci, AMOLED, 144Hz\n
+            Prosesor: Snapdragon 8 Gen 2\n
+            RAM: 16GB/24GB\n
+            Memori Internal: 256GB/512GB/1TB\n
+            Kamera Belakang: 50MP (wide), 8MP (ultrawide), 2MP (macro)\n
+            Kamera Depan: 16MP\n
+            Baterai: 4600mAh, 240W fast charging\n
+            Sistem Operasi: Android 13, Realme UI 4.0\n
+            Fitur Lainnya: Stainless steel frame, vapor chamber cooling, in-display fingerprint sensor
+        </item>
+        <item>
+            Layar: 6.67 inci, AMOLED, 120Hz\n
+            Prosesor: Snapdragon 8+ Gen 1\n
+            RAM: 6GB/8GB/12GB\n
+            Memori Internal: 128GB/256GB\n
+            Kamera Belakang: 64MP (wide), 8MP (ultrawide), 2MP (macro)\n
+            Kamera Depan: 16MP\n
+            Baterai: 5000mAh, 67W fast charging\n
+            Sistem Operasi: Android 13, MIUI 14 for Poco\n
+            Fitur Lainnya: LiquidCool Technology 2.0, Dolby Atmos, Hi-Res Audio
+        </item>
+        <item>
+            Layar: 6.67 inci, AMOLED, 120Hz\n
+            Prosesor: Helio G99\n
+            RAM: 8GB/16GB\n
+            Memori Internal: 256GB/512GB\n
+            Kamera Belakang: 50MP (wide), 13MP (ultrawide), 2MP (depth)\n
+            Kamera Depan: 32MP\n
+            Baterai: 5000mAh, 45W fast charging\n
+            Sistem Operasi: Android 13, HiOS 13\n
+            Fitur Lainnya: RGBW sensor, in-display fingerprint sensor, dual flash
+        </item>
+        <item>
+            Layar: 6.78 inci, AMOLED, 120Hz\n
+            Prosesor: Dimensity 920\n
+            RAM: 8GB/12GB\n
+            Memori Internal: 128GB/256GB\n
+            Kamera Belakang: 200MP (wide), 13MP (ultrawide), 2MP (depth)\n
+            Kamera Depan: 32MP\n
+            Baterai: 4500mAh, 180W fast charging\n
+            Sistem Operasi: Android 12, XOS 12\n
+            Fitur Lainnya: 108MP mode, dual LED flash, glass back
+        </item>
+        <item>
+            Layar: 6.81 inci, LTPO OLED, 120Hz\n
+            Prosesor: Snapdragon 8 Gen 2\n
+            RAM: 8GB/12GB\n
+            Memori Internal: 256GB/512GB\n
+            Kamera Belakang: 54MP (wide), 50MP (ultrawide), 50MP (telephoto)\n
+            Kamera Depan: 12MP\n
+            Baterai: 5450mAh, 66W fast charging\n
+            Sistem Operasi: Android 13, MagicOS 7.1\n
+            Fitur Lainnya: IP68 dust/water resistant, stereo speakers, wireless charging
+        </item>
+    </string-array>
+</resources>

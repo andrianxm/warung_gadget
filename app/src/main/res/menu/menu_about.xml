@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/btn_back"
+        android:icon="@drawable/baseline_arrow_back_24"
+        android:title="@string/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:showAsAction="ifRoom"/>
+<!--    <ImageView-->
+<!--        android:id="@+id/btn_back"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginTop="12dp"-->
+<!--        android:src="@drawable/baseline_arrow_back_24"-->
+
+<!--        tools:ignore="MissingConstraints" />-->
+
+</menu>
